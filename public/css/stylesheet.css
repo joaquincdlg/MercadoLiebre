@@ -246,7 +246,15 @@ footer{
     .checkbox{
         display:flex;
         flex-wrap: wrap;
-        
+        justify-content: space-between;
+
+    }
+    .checkbox label{
+        justify-content: flex-end;
+    }
+    .checkbox-title{
+        width: 100%;
+
     }
     .detalles{
         display: flex;
