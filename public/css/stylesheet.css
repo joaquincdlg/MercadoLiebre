@@ -243,7 +243,11 @@ footer{
         justify-content: space-around;
 
     }
-
+    .checkbox{
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
     .detalles{
         display: flex;
         flex-wrap: wrap;
